@@ -1,5 +1,5 @@
 ---
-// await Astro.slots.render('default');
+await Astro.slots.render('default'); // return value not render in the page
 const content2 = await Astro.slots.render('default');
 ---
 <Fragment set:html={content2} />
